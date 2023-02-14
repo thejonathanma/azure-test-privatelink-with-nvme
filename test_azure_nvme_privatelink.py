@@ -3,6 +3,8 @@ import json
 
 ##### DOCUMENTATION #####
 
+# This script requires python3 to be run
+#
 # Run following command to start test:
 #    python3 test_azure_nvme_privatelink.py
 #
