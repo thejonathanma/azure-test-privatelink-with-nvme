@@ -1,4 +1,4 @@
-##Summary
+## Summary
 
 This repository contains a python test file that tests connection attempts against an Azure PrivateLink Endpoint Service that is backed by an Azure NVMe machine.
 The python script will execute the following:
@@ -11,7 +11,7 @@ The python script will execute the following:
 6) Tear down the vm in resource group B
 7) Repeat steps 3-6 for `n` number of trials
 
-##Commands
+## Commands
 
 Running the script:
 
@@ -19,7 +19,7 @@ Running the script:
 python3 test_azure_nvme_privatelink.py
 ```
 
-##Script Constants
+## Script Constants
 
 There are a few constants in the script that can be edited in order to adjust things such as the number of trials run or the vm image. 
 Note that there are more constants in the scrip than the constants that are listed below. 
