@@ -17,20 +17,20 @@ TRIALS = 10
 LOCATION = "eastus"
 DEFAULT_IMAGE_NAME = "OpenLogic:CentOS:7_9:7.9.2022101800"
 
-PROVIDER_RESOURCE_GROUP_NAME = "jonathan-nvme-pl-provider"
-PROVIDER_VNET_NAME = "jonathan-nvme-pl-provider-vnet"
-PROVIDER_LB_NAME = "jonathan-nvme-pl-provider-lb"
-PROVIDER_PLS_NAME = "jonathan-nvme-pl-provider-service"
-PROVIDER_VM_NAME = "jonathan-nvme-pl-provider-vm"
+PROVIDER_RESOURCE_GROUP_NAME = "nvme-pl-provider"
+PROVIDER_VNET_NAME = "nvme-pl-provider-vnet"
+PROVIDER_LB_NAME = "nvme-pl-provider-lb"
+PROVIDER_PLS_NAME = "nvme-pl-provider-service"
+PROVIDER_VM_NAME = "nvme-pl-provider-vm"
 PROVIDER_VM_SIZE = "Standard_L8s_v3"
-PROVIDER_LB_NAT_RULE_NAME = "jonathan-nvme-pl-provider-lb-rule"
+PROVIDER_LB_NAT_RULE_NAME = "nvme-pl-provider-lb-rule"
 PROVIDER_LB_NAT_RULE_PORT = 80
 
-CONSUMER_RESOURCE_GROUP_NAME = "jonathan-nvme-pl-consumer"
-CONSUMER_VNET_NAME = "jonathan-nvme-pl-consumer-vnet"
-CONSUMER_VM_NAME = "jonathan-nvme-pl-consumer-vm"
+CONSUMER_RESOURCE_GROUP_NAME = "nvme-pl-consumer"
+CONSUMER_VNET_NAME = "nvme-pl-consumer-vnet"
+CONSUMER_VM_NAME = "nvme-pl-consumer-vm"
 CONSUMER_VM_SIZE = "Standard_DS1_v2"
-CONSUMER_ENDPOINT_NAME = "jonathan-nvme-pl-consumer-endpoint"
+CONSUMER_ENDPOINT_NAME = "nvme-pl-consumer-endpoint"
 
 ##### AZURE CLI HELPER METHODS #####
 

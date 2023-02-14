@@ -16,16 +16,17 @@ The python script will execute the following:
 Running the script:
 
 ```
+az login
 python3 test_azure_nvme_privatelink.py
 ```
 
 ## Script Constants
 
-There are a few constants in the script that can be edited in order to adjust things such as the number of trials run or the vm image. 
-Note that there are more constants in the scrip than the constants that are listed below. 
+There are a few constants in the script that can be edited in order to adjust things such as the number of trials run or the vm image.
+Note that there are more constants in the scrip than the constants that are listed below.
 
 **TRIALS**  
-Determines the number of times steps 3-6 in the summary above will be run. 
+Determines the number of times steps 3-6 in the summary above will be run.
 
 **DEFAULT_IMAGE_NAME**  
 Determines the type of image that the virtual machines will run.
@@ -35,6 +36,7 @@ Determines the virtual machine size. Adjust this value to change the type of Azu
 
 ## Dependencies
 
-Requires `Python3`
+- `Python3`
+- `azure-cli`: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
 
 Any python3 library dependencies are listed in `requirements.txt`.
