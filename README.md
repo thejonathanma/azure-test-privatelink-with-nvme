@@ -33,4 +33,8 @@ Determines the type of image that the virtual machines will run.
 **PROVIDER_VM_SIZE**  
 Determines the virtual machine size. Adjust this value to change the type of Azure virtual machine (nvme vs non-nvme).
 
+## Dependencies
 
+Requires `Python3`
+
+Any python3 library dependencies are listed in `requirements.txt`.
